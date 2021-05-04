@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Url" value="https://www.myntra.com"/>
+  <parameter name="Browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.qa.utility.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.testscript.TC_ValidLogin_001">
+        <methods>
+          <include name="validLogin"/>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.testscript.TC_ValidLogin_001 -->
+      <class name="com.qa.testscript.TC_MyntraShopping_002">
+        <methods>
+          <include name="buyproduct"/>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.testscript.TC_MyntraShopping_002 -->
+      <class name="com.qa.testscript.TC_InvalidLogin_003">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+          <include name="Invalidlogin"/>
+        </methods>
+      </class> <!-- com.qa.testscript.TC_InvalidLogin_003 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
