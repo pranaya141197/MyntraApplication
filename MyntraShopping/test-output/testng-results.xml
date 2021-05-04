@@ -1,38 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="9" ignored="0" total="12" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
     <line>
       <![CDATA[Logged in successful]]>
     </line>
     <line>
-      <![CDATA[9: Number of Items in cart]]>
+      <![CDATA[Window id is :CDwindow-AC756DAFB43432F22B2293EC0F2D46BD]]>
     </line>
     <line>
-      <![CDATA[Cart Items:]]>
+      <![CDATA[Window id is :CDwindow-367F25F509929A4557E11D3A038D998C]]>
+    </line>
+    <line>
+      <![CDATA[Window id is :CDwindow-AC756DAFB43432F22B2293EC0F2D46BD]]>
+    </line>
+    <line>
+      <![CDATA[Window id is :CDwindow-367F25F509929A4557E11D3A038D998C]]>
+    </line>
+    <line>
+      <![CDATA[Window id is :CDwindow-703B2C64642455B65CDBD8A1BDFDD5BA]]>
+    </line>
+    <line>
+      <![CDATA[Window id is :CDwindow-AC756DAFB43432F22B2293EC0F2D46BD]]>
+    </line>
+    <line>
+      <![CDATA[Window id is :CDwindow-367F25F509929A4557E11D3A038D998C]]>
+    </line>
+    <line>
+      <![CDATA[Window id is :CDwindow-703B2C64642455B65CDBD8A1BDFDD5BA]]>
+    </line>
+    <line>
+      <![CDATA[Window id is :CDwindow-CC42FA2BD34275374F8A9A68A5CDE42B]]>
+    </line>
+    <line>
+      <![CDATA[5: Number of Items in cart]]>
+    </line>
+    <line>
+      <![CDATA[Cart Items:  ]]>
     </line>
     <line>
       <![CDATA[Women Brown & Orange Snake Printed Fanny Pack]]>
     </line>
     <line>
-      <![CDATA[Women Blue & Green Printed Mobile Sling Bag]]>
-    </line>
-    <line>
-      <![CDATA[Women Pack of 3 Navy Blue & White Printed Canvas Bags]]>
-    </line>
-    <line>
       <![CDATA[Set of 3 White Ceramic Flower Vase]]>
     </line>
     <line>
-      <![CDATA[Women Red & Black Metallic Waist Pouch]]>
+      <![CDATA[Women Green & Orange Floral Printed Fanny Pack]]>
     </line>
     <line>
-      <![CDATA[Black ATX Brushed PVD Ballpoint Pen With Gift Box]]>
-    </line>
-    <line>
-      <![CDATA[White Rose Gold-Plated Eternal Flower Necklace]]>
-    </line>
-    <line>
-      <![CDATA[Black Solid Sling Bag]]>
+      <![CDATA[Silver-Toned & Black Classic Century Ball Point Pen With Gift Box]]>
     </line>
     <line>
       <![CDATA[Unisex Black Caviar FP-Med Nib Fountain Pen]]>
@@ -49,13 +64,25 @@
     <line>
       <![CDATA[Invalid Credentials]]>
     </line>
+    <line>
+      <![CDATA[User not logged in]]>
+    </line>
+    <line>
+      <![CDATA[User not logged in]]>
+    </line>
+    <line>
+      <![CDATA[User not logged in]]>
+    </line>
+    <line>
+      <![CDATA[User not loggedin]]>
+    </line>
   </reporter-output>
-  <suite name="MyntraSuite" duration-ms="220619" started-at="2021-05-04T04:38:13Z" finished-at="2021-05-04T04:41:54Z">
+  <suite name="MyntraSuite" duration-ms="285347" started-at="2021-05-04T13:21:18Z" finished-at="2021-05-04T13:26:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="220619" started-at="2021-05-04T04:38:13Z" finished-at="2021-05-04T04:41:54Z">
+    <test name="Test" duration-ms="285347" started-at="2021-05-04T13:21:18Z" finished-at="2021-05-04T13:26:04Z">
       <class name="com.qa.testscript.TC_InvalidLogin_002">
-        <test-method status="PASS" signature="SetUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscript.TC_InvalidLogin_002@75ae4a1f]" name="SetUp" is-config="true" duration-ms="6962" started-at="2021-05-04T04:40:08Z" finished-at="2021-05-04T04:40:15Z">
+        <test-method status="PASS" signature="SetUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscript.TC_InvalidLogin_002@31a5c39e]" name="SetUp" is-config="true" duration-ms="8237" started-at="2021-05-04T13:24:03Z" finished-at="2021-05-04T13:24:11Z">
           <params>
             <param index="0">
               <value>
@@ -71,11 +98,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="FAIL" signature="Invalidlogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testscript.TC_InvalidLogin_002@75ae4a1f]" name="Invalidlogin" duration-ms="32727" started-at="2021-05-04T04:40:16Z" data-provider="getInvalidLoginData" finished-at="2021-05-04T04:40:49Z">
+        <test-method status="PASS" signature="Invalidlogin(java.lang.String, java.lang.String)[pri:4, instance:com.qa.testscript.TC_InvalidLogin_002@31a5c39e]" name="Invalidlogin" duration-ms="36587" started-at="2021-05-04T13:24:12Z" data-provider="getInvalidLoginData" finished-at="2021-05-04T13:24:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[6803212013]]>
+                <![CDATA[6833212013]]>
               </value>
             </param>
             <param index="1">
@@ -84,55 +111,17 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Username or Password should be correct] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Username or Password should be correct] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.qa.testscript.TC_InvalidLogin_002.Invalidlogin(TC_InvalidLogin_002.java:53)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[Invalid Credentials]]>
             </line>
           </reporter-output>
         </test-method> <!-- Invalidlogin -->
-        <test-method status="FAIL" signature="Invalidlogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testscript.TC_InvalidLogin_002@75ae4a1f]" name="Invalidlogin" duration-ms="32001" started-at="2021-05-04T04:40:49Z" data-provider="getInvalidLoginData" finished-at="2021-05-04T04:41:21Z">
+        <test-method status="PASS" signature="Invalidlogin(java.lang.String, java.lang.String)[pri:4, instance:com.qa.testscript.TC_InvalidLogin_002@31a5c39e]" name="Invalidlogin" duration-ms="35499" started-at="2021-05-04T13:24:49Z" data-provider="getInvalidLoginData" finished-at="2021-05-04T13:25:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[6801212013]]>
+                <![CDATA[6831312013]]>
               </value>
             </param>
             <param index="1">
@@ -141,55 +130,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Username or Password should be correct] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Username or Password should be correct] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.qa.testscript.TC_InvalidLogin_002.Invalidlogin(TC_InvalidLogin_002.java:53)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[Invalid Credentials]]>
             </line>
           </reporter-output>
         </test-method> <!-- Invalidlogin -->
-        <test-method status="FAIL" signature="Invalidlogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testscript.TC_InvalidLogin_002@75ae4a1f]" name="Invalidlogin" duration-ms="31658" started-at="2021-05-04T04:41:21Z" data-provider="getInvalidLoginData" finished-at="2021-05-04T04:41:52Z">
+        <test-method status="PASS" signature="Invalidlogin(java.lang.String, java.lang.String)[pri:4, instance:com.qa.testscript.TC_InvalidLogin_002@31a5c39e]" name="Invalidlogin" duration-ms="34729" started-at="2021-05-04T13:25:24Z" data-provider="getInvalidLoginData" finished-at="2021-05-04T13:25:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[6892214013]]>
+                <![CDATA[6833314013]]>
               </value>
             </param>
             <param index="1">
@@ -198,51 +149,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Username or Password should be correct] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Username or Password should be correct] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.qa.testscript.TC_InvalidLogin_002.Invalidlogin(TC_InvalidLogin_002.java:53)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[Invalid Credentials]]>
             </line>
           </reporter-output>
         </test-method> <!-- Invalidlogin -->
-        <test-method status="FAIL" signature="buyproduct(java.lang.String, java.lang.String)[pri:4, instance:com.qa.testscript.TC_InvalidLogin_002@75ae4a1f]" name="buyproduct" duration-ms="11" started-at="2021-05-04T04:41:53Z" data-provider="getShoppingData" finished-at="2021-05-04T04:41:53Z">
+        <test-method status="PASS" signature="buyproduct(java.lang.String, java.lang.String)[pri:5, instance:com.qa.testscript.TC_InvalidLogin_002@31a5c39e]" name="buyproduct" duration-ms="1034" started-at="2021-05-04T13:25:59Z" data-provider="getShoppingData" finished-at="2021-05-04T13:26:00Z">
           <params>
             <param index="0">
               <value>
@@ -255,50 +168,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Username or Password should be correct] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Username or Password should be correct] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:442)
-at com.qa.testscript.TC_InvalidLogin_002.buyproduct(TC_InvalidLogin_002.java:79)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[User not logged in]]>
+            </line>
           </reporter-output>
         </test-method> <!-- buyproduct -->
-        <test-method status="FAIL" signature="buyproduct(java.lang.String, java.lang.String)[pri:4, instance:com.qa.testscript.TC_InvalidLogin_002@75ae4a1f]" name="buyproduct" duration-ms="14" started-at="2021-05-04T04:41:53Z" data-provider="getShoppingData" finished-at="2021-05-04T04:41:53Z">
+        <test-method status="PASS" signature="buyproduct(java.lang.String, java.lang.String)[pri:5, instance:com.qa.testscript.TC_InvalidLogin_002@31a5c39e]" name="buyproduct" duration-ms="1020" started-at="2021-05-04T13:26:00Z" data-provider="getShoppingData" finished-at="2021-05-04T13:26:01Z">
           <params>
             <param index="0">
               <value>
@@ -311,50 +187,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Username or Password should be correct] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Username or Password should be correct] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:442)
-at com.qa.testscript.TC_InvalidLogin_002.buyproduct(TC_InvalidLogin_002.java:79)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[User not logged in]]>
+            </line>
           </reporter-output>
         </test-method> <!-- buyproduct -->
-        <test-method status="FAIL" signature="buyproduct(java.lang.String, java.lang.String)[pri:4, instance:com.qa.testscript.TC_InvalidLogin_002@75ae4a1f]" name="buyproduct" duration-ms="16" started-at="2021-05-04T04:41:53Z" data-provider="getShoppingData" finished-at="2021-05-04T04:41:53Z">
+        <test-method status="PASS" signature="buyproduct(java.lang.String, java.lang.String)[pri:5, instance:com.qa.testscript.TC_InvalidLogin_002@31a5c39e]" name="buyproduct" duration-ms="1019" started-at="2021-05-04T13:26:01Z" data-provider="getShoppingData" finished-at="2021-05-04T13:26:02Z">
           <params>
             <param index="0">
               <value>
@@ -367,100 +206,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Username or Password should be correct] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Username or Password should be correct] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:442)
-at com.qa.testscript.TC_InvalidLogin_002.buyproduct(TC_InvalidLogin_002.java:79)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[User not logged in]]>
+            </line>
           </reporter-output>
         </test-method> <!-- buyproduct -->
-        <test-method status="FAIL" signature="BuyProductAndSignout()[pri:5, instance:com.qa.testscript.TC_InvalidLogin_002@75ae4a1f]" name="BuyProductAndSignout" duration-ms="28" started-at="2021-05-04T04:41:53Z" finished-at="2021-05-04T04:41:53Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Username or Password should be correct] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Username or Password should be correct] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:442)
-at com.qa.testscript.TC_InvalidLogin_002.BuyProductAndSignout(TC_InvalidLogin_002.java:127)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="BuyProductAndSignout()[pri:6, instance:com.qa.testscript.TC_InvalidLogin_002@31a5c39e]" name="BuyProductAndSignout" duration-ms="8" started-at="2021-05-04T13:26:02Z" finished-at="2021-05-04T13:26:02Z">
           <reporter-output>
+            <line>
+              <![CDATA[User not loggedin]]>
+            </line>
           </reporter-output>
         </test-method> <!-- BuyProductAndSignout -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testscript.TC_InvalidLogin_002@75ae4a1f]" name="TearDown" is-config="true" duration-ms="1144" started-at="2021-05-04T04:41:53Z" finished-at="2021-05-04T04:41:54Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testscript.TC_InvalidLogin_002@31a5c39e]" name="TearDown" is-config="true" duration-ms="1256" started-at="2021-05-04T13:26:02Z" finished-at="2021-05-04T13:26:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.qa.testscript.TC_InvalidLogin_002 -->
       <class name="com.qa.testscript.TC_MyntraShopping_001">
-        <test-method status="PASS" signature="SetUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscript.TC_MyntraShopping_001@9596ce8]" name="SetUp" is-config="true" duration-ms="11045" started-at="2021-05-04T04:38:14Z" finished-at="2021-05-04T04:38:25Z">
+        <test-method status="PASS" signature="SetUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscript.TC_MyntraShopping_001@5f2108b5]" name="SetUp" is-config="true" duration-ms="9573" started-at="2021-05-04T13:21:19Z" finished-at="2021-05-04T13:21:28Z">
           <params>
             <param index="0">
               <value>
@@ -476,11 +241,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="getValidLoginData(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testscript.TC_MyntraShopping_001@9596ce8]" name="getValidLoginData" duration-ms="18699" started-at="2021-05-04T04:38:29Z" data-provider="getValidLoginData" finished-at="2021-05-04T04:38:48Z">
+        <test-method status="PASS" signature="getValidLoginData(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testscript.TC_MyntraShopping_001@5f2108b5]" name="getValidLoginData" duration-ms="21635" started-at="2021-05-04T13:21:30Z" data-provider="getValidLoginData" finished-at="2021-05-04T13:21:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[9133816572]]>
+                <![CDATA[6303341928]]>
               </value>
             </param>
             <param index="1">
@@ -495,7 +260,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- getValidLoginData -->
-        <test-method status="FAIL" signature="AddToCart(java.lang.String, java.lang.String)[pri:2, instance:com.qa.testscript.TC_MyntraShopping_001@9596ce8]" name="AddToCart" duration-ms="12559" started-at="2021-05-04T04:38:49Z" data-provider="getShoppingData" finished-at="2021-05-04T04:39:01Z">
+        <test-method status="PASS" signature="AddToCart(java.lang.String, java.lang.String)[pri:2, instance:com.qa.testscript.TC_MyntraShopping_001@5f2108b5]" name="AddToCart" duration-ms="32635" started-at="2021-05-04T13:21:53Z" data-provider="getShoppingData" finished-at="2021-05-04T13:22:25Z">
           <params>
             <param index="0">
               <value>
@@ -508,75 +273,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <div class="product-sliderContainer" style="display: block;">...</div> is not clickable at point (385, 424). Other element would receive the click: <li class="desktop-evenColumnContent desktop-oddColumnContent" data-reactid="651">...</li>
-  (Session info: chrome=90.0.4430.93)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-ETJP85C', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Pranaya\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d8a89c1da4b9982b5d54da113347f74]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="product-sliderContainer" style="display: block;">...</div> is not clickable at point (385, 424). Other element would receive the click: <li class="desktop-evenColumnContent desktop-oddColumnContent" data-reactid="651">...</li>
-  (Session info: chrome=90.0.4430.93)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-ETJP85C', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Pranaya\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d8a89c1da4b9982b5d54da113347f74
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy11.click(Unknown Source)
-at com.qa.testscript.TC_MyntraShopping_001.AddToCart(TC_MyntraShopping_001.java:66)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
+            <line>
+              <![CDATA[Window id is :CDwindow-AC756DAFB43432F22B2293EC0F2D46BD]]>
+            </line>
+            <line>
+              <![CDATA[Window id is :CDwindow-367F25F509929A4557E11D3A038D998C]]>
+            </line>
           </reporter-output>
         </test-method> <!-- AddToCart -->
-        <test-method status="FAIL" signature="AddToCart(java.lang.String, java.lang.String)[pri:2, instance:com.qa.testscript.TC_MyntraShopping_001@9596ce8]" name="AddToCart" duration-ms="12598" started-at="2021-05-04T04:39:01Z" data-provider="getShoppingData" finished-at="2021-05-04T04:39:14Z">
+        <test-method status="PASS" signature="AddToCart(java.lang.String, java.lang.String)[pri:2, instance:com.qa.testscript.TC_MyntraShopping_001@5f2108b5]" name="AddToCart" duration-ms="34342" started-at="2021-05-04T13:22:25Z" data-provider="getShoppingData" finished-at="2021-05-04T13:23:00Z">
           <params>
             <param index="0">
               <value>
@@ -589,75 +295,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <div class="product-sliderContainer" style="display: block;">...</div> is not clickable at point (385, 400). Other element would receive the click: <a href="/beauty-page-fragrances?f=Categories%3ABody%20Mist" style="color:;" class="desktop-categoryLink" data-reactid="677">...</a>
-  (Session info: chrome=90.0.4430.93)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-ETJP85C', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Pranaya\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d8a89c1da4b9982b5d54da113347f74]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="product-sliderContainer" style="display: block;">...</div> is not clickable at point (385, 400). Other element would receive the click: <a href="/beauty-page-fragrances?f=Categories%3ABody%20Mist" style="color:;" class="desktop-categoryLink" data-reactid="677">...</a>
-  (Session info: chrome=90.0.4430.93)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-ETJP85C', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Pranaya\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d8a89c1da4b9982b5d54da113347f74
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy11.click(Unknown Source)
-at com.qa.testscript.TC_MyntraShopping_001.AddToCart(TC_MyntraShopping_001.java:66)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
+            <line>
+              <![CDATA[Window id is :CDwindow-AC756DAFB43432F22B2293EC0F2D46BD]]>
+            </line>
+            <line>
+              <![CDATA[Window id is :CDwindow-367F25F509929A4557E11D3A038D998C]]>
+            </line>
+            <line>
+              <![CDATA[Window id is :CDwindow-703B2C64642455B65CDBD8A1BDFDD5BA]]>
+            </line>
           </reporter-output>
         </test-method> <!-- AddToCart -->
-        <test-method status="PASS" signature="AddToCart(java.lang.String, java.lang.String)[pri:2, instance:com.qa.testscript.TC_MyntraShopping_001@9596ce8]" name="AddToCart" duration-ms="28575" started-at="2021-05-04T04:39:14Z" data-provider="getShoppingData" finished-at="2021-05-04T04:39:42Z">
+        <test-method status="PASS" signature="AddToCart(java.lang.String, java.lang.String)[pri:2, instance:com.qa.testscript.TC_MyntraShopping_001@5f2108b5]" name="AddToCart" duration-ms="32621" started-at="2021-05-04T13:23:00Z" data-provider="getShoppingData" finished-at="2021-05-04T13:23:32Z">
           <params>
             <param index="0">
               <value>
@@ -671,39 +321,39 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
           </params>
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddToCart -->
-        <test-method status="PASS" signature="BuyProductAndSignout()[pri:3, instance:com.qa.testscript.TC_MyntraShopping_001@9596ce8]" name="BuyProductAndSignout" duration-ms="24844" started-at="2021-05-04T04:39:42Z" finished-at="2021-05-04T04:40:07Z">
-          <reporter-output>
             <line>
-              <![CDATA[9: Number of Items in cart]]>
+              <![CDATA[Window id is :CDwindow-AC756DAFB43432F22B2293EC0F2D46BD]]>
             </line>
             <line>
-              <![CDATA[Cart Items:]]>
+              <![CDATA[Window id is :CDwindow-367F25F509929A4557E11D3A038D998C]]>
+            </line>
+            <line>
+              <![CDATA[Window id is :CDwindow-703B2C64642455B65CDBD8A1BDFDD5BA]]>
+            </line>
+            <line>
+              <![CDATA[Window id is :CDwindow-CC42FA2BD34275374F8A9A68A5CDE42B]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method status="PASS" signature="BuyProductAndSignout()[pri:3, instance:com.qa.testscript.TC_MyntraShopping_001@5f2108b5]" name="BuyProductAndSignout" duration-ms="29443" started-at="2021-05-04T13:23:32Z" finished-at="2021-05-04T13:24:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[5: Number of Items in cart]]>
+            </line>
+            <line>
+              <![CDATA[Cart Items:  ]]>
             </line>
             <line>
               <![CDATA[Women Brown & Orange Snake Printed Fanny Pack]]>
             </line>
             <line>
-              <![CDATA[Women Blue & Green Printed Mobile Sling Bag]]>
-            </line>
-            <line>
-              <![CDATA[Women Pack of 3 Navy Blue & White Printed Canvas Bags]]>
-            </line>
-            <line>
               <![CDATA[Set of 3 White Ceramic Flower Vase]]>
             </line>
             <line>
-              <![CDATA[Women Red & Black Metallic Waist Pouch]]>
+              <![CDATA[Women Green & Orange Floral Printed Fanny Pack]]>
             </line>
             <line>
-              <![CDATA[Black ATX Brushed PVD Ballpoint Pen With Gift Box]]>
-            </line>
-            <line>
-              <![CDATA[White Rose Gold-Plated Eternal Flower Necklace]]>
-            </line>
-            <line>
-              <![CDATA[Black Solid Sling Bag]]>
+              <![CDATA[Silver-Toned & Black Classic Century Ball Point Pen With Gift Box]]>
             </line>
             <line>
               <![CDATA[Unisex Black Caviar FP-Med Nib Fountain Pen]]>
@@ -713,7 +363,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- BuyProductAndSignout -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testscript.TC_MyntraShopping_001@9596ce8]" name="TearDown" is-config="true" duration-ms="1006" started-at="2021-05-04T04:40:07Z" finished-at="2021-05-04T04:40:08Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testscript.TC_MyntraShopping_001@5f2108b5]" name="TearDown" is-config="true" duration-ms="1348" started-at="2021-05-04T13:24:02Z" finished-at="2021-05-04T13:24:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

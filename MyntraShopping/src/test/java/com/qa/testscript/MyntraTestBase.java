@@ -69,7 +69,7 @@ public class MyntraTestBase {
 	// Creating a method to capture the screenshot
 	public void CaptureScreenshot(WebDriver driver, String name) throws IOException
 	{
-		// Creating a object of takescreenshot
+		// Creating a object of take screenshot
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		// Creating a variable of file type to store screenshot in the form of file.
 		File Source=ts.getScreenshotAs(OutputType.FILE);

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/9/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue May 04 10:08:13 IST 2021</td>
+<td>Started on:</td><td>Tue May 04 18:51:18 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>220 seconds (220619 ms)</td>
+<tr><td>Total time:</td><td>285 seconds (285347 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,459 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.qa.testscript.TC_MyntraShopping_001.AddToCart()'><b>AddToCart</b><br>Test class: com.qa.testscript.TC_MyntraShopping_001<br>Parameters: Pen, https://www.myntra.com/?src=bc</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;product-sliderContainer&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt; is not clickable at point (385, 424). Other element would receive the click: &lt;li class=&quot;desktop-evenColumnContent desktop-oddColumnContent&quot; data-reactid=&quot;651&quot;&gt;...&lt;/li&gt;
-  (Session info: chrome=90.0.4430.93)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-ETJP85C&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Pranaya\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d8a89c1da4b9982b5d54da113347f74
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.qa.testscript.TC_MyntraShopping_001.AddToCart(TC_MyntraShopping_001.java:66)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2030905511", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2030905511'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;product-sliderContainer&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt; is not clickable at point (385, 424). Other element would receive the click: &lt;li class=&quot;desktop-evenColumnContent desktop-oddColumnContent&quot; data-reactid=&quot;651&quot;&gt;...&lt;/li&gt;
-  (Session info: chrome=90.0.4430.93)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-ETJP85C&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Pranaya\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d8a89c1da4b9982b5d54da113347f74
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.qa.testscript.TC_MyntraShopping_001.AddToCart(TC_MyntraShopping_001.java:66)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>12</td>
-<td>com.qa.testscript.TC_MyntraShopping_001@9596ce8</td></tr>
-<tr>
-<td title='com.qa.testscript.TC_MyntraShopping_001.AddToCart()'><b>AddToCart</b><br>Test class: com.qa.testscript.TC_MyntraShopping_001<br>Parameters: Spice art, https://www.myntra.com/?src=bc</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;product-sliderContainer&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt; is not clickable at point (385, 400). Other element would receive the click: &lt;a href=&quot;/beauty-page-fragrances?f=Categories%3ABody%20Mist&quot; style=&quot;color:;&quot; class=&quot;desktop-categoryLink&quot; data-reactid=&quot;677&quot;&gt;...&lt;/a&gt;
-  (Session info: chrome=90.0.4430.93)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-ETJP85C&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Pranaya\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d8a89c1da4b9982b5d54da113347f74
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.qa.testscript.TC_MyntraShopping_001.AddToCart(TC_MyntraShopping_001.java:66)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1040731439", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1040731439'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;product-sliderContainer&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt; is not clickable at point (385, 400). Other element would receive the click: &lt;a href=&quot;/beauty-page-fragrances?f=Categories%3ABody%20Mist&quot; style=&quot;color:;&quot; class=&quot;desktop-categoryLink&quot; data-reactid=&quot;677&quot;&gt;...&lt;/a&gt;
-  (Session info: chrome=90.0.4430.93)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-ETJP85C&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Pranaya\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d8a89c1da4b9982b5d54da113347f74
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.qa.testscript.TC_MyntraShopping_001.AddToCart(TC_MyntraShopping_001.java:66)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>12</td>
-<td>com.qa.testscript.TC_MyntraShopping_001@9596ce8</td></tr>
-<tr>
-<td title='com.qa.testscript.TC_InvalidLogin_002.BuyProductAndSignout()'><b>BuyProductAndSignout</b><br>Test class: com.qa.testscript.TC_InvalidLogin_002</td>
-<td><div><pre>java.lang.AssertionError: expected [Username or Password should be correct] but found [false]
-	at com.qa.testscript.TC_InvalidLogin_002.BuyProductAndSignout(TC_InvalidLogin_002.java:127)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace261070048", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace261070048'><pre>java.lang.AssertionError: expected [Username or Password should be correct] but found [false]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:442)
-	at com.qa.testscript.TC_InvalidLogin_002.BuyProductAndSignout(TC_InvalidLogin_002.java:127)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.qa.testscript.TC_InvalidLogin_002@75ae4a1f</td></tr>
-<tr>
-<td title='com.qa.testscript.TC_InvalidLogin_002.Invalidlogin()'><b>Invalidlogin</b><br>Test class: com.qa.testscript.TC_InvalidLogin_002<br>Parameters: 6803212013, 1dsdefe<br/>
-<a href="#Output-1625965606" onClick='toggleBox("Output-1625965606", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1625965606" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1625965606">
-Invalid Credentials<br/>
-</div>
-</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Username or Password should be correct] but found [false]
-	at com.qa.testscript.TC_InvalidLogin_002.Invalidlogin(TC_InvalidLogin_002.java:53)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1625965606", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1625965606'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Username or Password should be correct] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at com.qa.testscript.TC_InvalidLogin_002.Invalidlogin(TC_InvalidLogin_002.java:53)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>32</td>
-<td>com.qa.testscript.TC_InvalidLogin_002@75ae4a1f</td></tr>
-<tr>
-<td title='com.qa.testscript.TC_InvalidLogin_002.Invalidlogin()'><b>Invalidlogin</b><br>Test class: com.qa.testscript.TC_InvalidLogin_002<br>Parameters: 6801212013, **&&kjg<br/>
-<a href="#Output-801976616" onClick='toggleBox("Output-801976616", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-801976616" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-801976616">
-Invalid Credentials<br/>
-</div>
-</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Username or Password should be correct] but found [false]
-	at com.qa.testscript.TC_InvalidLogin_002.Invalidlogin(TC_InvalidLogin_002.java:53)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace801976616", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace801976616'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Username or Password should be correct] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at com.qa.testscript.TC_InvalidLogin_002.Invalidlogin(TC_InvalidLogin_002.java:53)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>32</td>
-<td>com.qa.testscript.TC_InvalidLogin_002@75ae4a1f</td></tr>
-<tr>
-<td title='com.qa.testscript.TC_InvalidLogin_002.Invalidlogin()'><b>Invalidlogin</b><br>Test class: com.qa.testscript.TC_InvalidLogin_002<br>Parameters: 6892214013, _*@!###<br/>
-<a href="#Output-837034165" onClick='toggleBox("Output-837034165", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-837034165" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-837034165">
-Invalid Credentials<br/>
-</div>
-</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Username or Password should be correct] but found [false]
-	at com.qa.testscript.TC_InvalidLogin_002.Invalidlogin(TC_InvalidLogin_002.java:53)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace837034165", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace837034165'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Username or Password should be correct] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at com.qa.testscript.TC_InvalidLogin_002.Invalidlogin(TC_InvalidLogin_002.java:53)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>31</td>
-<td>com.qa.testscript.TC_InvalidLogin_002@75ae4a1f</td></tr>
-<tr>
-<td title='com.qa.testscript.TC_InvalidLogin_002.buyproduct()'><b>buyproduct</b><br>Test class: com.qa.testscript.TC_InvalidLogin_002<br>Parameters: Pen, https://www.myntra.com/?src=bc</td>
-<td><div><pre>java.lang.AssertionError: expected [Username or Password should be correct] but found [false]
-	at com.qa.testscript.TC_InvalidLogin_002.buyproduct(TC_InvalidLogin_002.java:79)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace366103732", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace366103732'><pre>java.lang.AssertionError: expected [Username or Password should be correct] but found [false]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:442)
-	at com.qa.testscript.TC_InvalidLogin_002.buyproduct(TC_InvalidLogin_002.java:79)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.qa.testscript.TC_InvalidLogin_002@75ae4a1f</td></tr>
-<tr>
-<td title='com.qa.testscript.TC_InvalidLogin_002.buyproduct()'><b>buyproduct</b><br>Test class: com.qa.testscript.TC_InvalidLogin_002<br>Parameters: Spice art, https://www.myntra.com/?src=bc</td>
-<td><div><pre>java.lang.AssertionError: expected [Username or Password should be correct] but found [false]
-	at com.qa.testscript.TC_InvalidLogin_002.buyproduct(TC_InvalidLogin_002.java:79)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace921735399", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace921735399'><pre>java.lang.AssertionError: expected [Username or Password should be correct] but found [false]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:442)
-	at com.qa.testscript.TC_InvalidLogin_002.buyproduct(TC_InvalidLogin_002.java:79)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.qa.testscript.TC_InvalidLogin_002@75ae4a1f</td></tr>
-<tr>
-<td title='com.qa.testscript.TC_InvalidLogin_002.buyproduct()'><b>buyproduct</b><br>Test class: com.qa.testscript.TC_InvalidLogin_002<br>Parameters: Flower vase, https://www.myntra.com/?src=bc</td>
-<td><div><pre>java.lang.AssertionError: expected [Username or Password should be correct] but found [false]
-	at com.qa.testscript.TC_InvalidLogin_002.buyproduct(TC_InvalidLogin_002.java:79)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1166765546", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1166765546'><pre>java.lang.AssertionError: expected [Username or Password should be correct] but found [false]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:442)
-	at com.qa.testscript.TC_InvalidLogin_002.buyproduct(TC_InvalidLogin_002.java:79)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.qa.testscript.TC_InvalidLogin_002@75ae4a1f</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -528,45 +75,162 @@ Invalid Credentials<br/>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.testscript.TC_MyntraShopping_001.AddToCart()'><b>AddToCart</b><br>Test class: com.qa.testscript.TC_MyntraShopping_001<br>Parameters: Flower vase, https://www.myntra.com/?src=bc</td>
+<td title='com.qa.testscript.TC_MyntraShopping_001.AddToCart()'><b>AddToCart</b><br>Test class: com.qa.testscript.TC_MyntraShopping_001<br>Parameters: Pen, https://www.myntra.com/?src=bc<br/>
+<a href="#Output-920446957" onClick='toggleBox("Output-920446957", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-920446957" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-920446957">
+Window id is :CDwindow-AC756DAFB43432F22B2293EC0F2D46BD<br/>
+Window id is :CDwindow-367F25F509929A4557E11D3A038D998C<br/>
+</div>
+</td>
 <td></td>
-<td>28</td>
-<td>com.qa.testscript.TC_MyntraShopping_001@9596ce8</td></tr>
+<td>32</td>
+<td>com.qa.testscript.TC_MyntraShopping_001@5f2108b5</td></tr>
+<tr>
+<td title='com.qa.testscript.TC_MyntraShopping_001.AddToCart()'><b>AddToCart</b><br>Test class: com.qa.testscript.TC_MyntraShopping_001<br>Parameters: Spice art, https://www.myntra.com/?src=bc<br/>
+<a href="#Output-953528583" onClick='toggleBox("Output-953528583", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-953528583" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-953528583">
+Window id is :CDwindow-AC756DAFB43432F22B2293EC0F2D46BD<br/>
+Window id is :CDwindow-367F25F509929A4557E11D3A038D998C<br/>
+Window id is :CDwindow-703B2C64642455B65CDBD8A1BDFDD5BA<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>com.qa.testscript.TC_MyntraShopping_001@5f2108b5</td></tr>
+<tr>
+<td title='com.qa.testscript.TC_MyntraShopping_001.AddToCart()'><b>AddToCart</b><br>Test class: com.qa.testscript.TC_MyntraShopping_001<br>Parameters: Flower vase, https://www.myntra.com/?src=bc<br/>
+<a href="#Output-1844579038" onClick='toggleBox("Output-1844579038", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1844579038" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1844579038">
+Window id is :CDwindow-AC756DAFB43432F22B2293EC0F2D46BD<br/>
+Window id is :CDwindow-367F25F509929A4557E11D3A038D998C<br/>
+Window id is :CDwindow-703B2C64642455B65CDBD8A1BDFDD5BA<br/>
+Window id is :CDwindow-CC42FA2BD34275374F8A9A68A5CDE42B<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>com.qa.testscript.TC_MyntraShopping_001@5f2108b5</td></tr>
 <tr>
 <td title='com.qa.testscript.TC_MyntraShopping_001.BuyProductAndSignout()'><b>BuyProductAndSignout</b><br>Test class: com.qa.testscript.TC_MyntraShopping_001<br/>
-<a href="#Output-1330210344" onClick='toggleBox("Output-1330210344", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1157199772" onClick='toggleBox("Output-1157199772", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1330210344" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1330210344">
-9: Number of Items in cart<br/>
-Cart Items:<br/>
+<a href="#Output-1157199772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1157199772">
+5: Number of Items in cart<br/>
+Cart Items:  <br/>
 Women Brown & Orange Snake Printed Fanny Pack<br/>
-Women Blue & Green Printed Mobile Sling Bag<br/>
-Women Pack of 3 Navy Blue & White Printed Canvas Bags<br/>
 Set of 3 White Ceramic Flower Vase<br/>
-Women Red & Black Metallic Waist Pouch<br/>
-Black ATX Brushed PVD Ballpoint Pen With Gift Box<br/>
-White Rose Gold-Plated Eternal Flower Necklace<br/>
-Black Solid Sling Bag<br/>
+Women Green & Orange Floral Printed Fanny Pack<br/>
+Silver-Toned & Black Classic Century Ball Point Pen With Gift Box<br/>
 Unisex Black Caviar FP-Med Nib Fountain Pen<br/>
  Order placed and Signed out successfully<br/>
 </div>
 </td>
 <td></td>
-<td>24</td>
-<td>com.qa.testscript.TC_MyntraShopping_001@9596ce8</td></tr>
+<td>29</td>
+<td>com.qa.testscript.TC_MyntraShopping_001@5f2108b5</td></tr>
 <tr>
-<td title='com.qa.testscript.TC_MyntraShopping_001.getValidLoginData()'><b>getValidLoginData</b><br>Test class: com.qa.testscript.TC_MyntraShopping_001<br>Parameters: 9133816572, Kitkat@456<br/>
-<a href="#Output-1078149210" onClick='toggleBox("Output-1078149210", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.qa.testscript.TC_InvalidLogin_002.BuyProductAndSignout()'><b>BuyProductAndSignout</b><br>Test class: com.qa.testscript.TC_InvalidLogin_002<br/>
+<a href="#Output-1842173497" onClick='toggleBox("Output-1842173497", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1078149210" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1078149210">
+<a href="#Output-1842173497" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1842173497">
+User not loggedin<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.testscript.TC_InvalidLogin_002@31a5c39e</td></tr>
+<tr>
+<td title='com.qa.testscript.TC_InvalidLogin_002.Invalidlogin()'><b>Invalidlogin</b><br>Test class: com.qa.testscript.TC_InvalidLogin_002<br>Parameters: 6833212013, 1dsdefe<br/>
+<a href="#Output-70788844" onClick='toggleBox("Output-70788844", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-70788844" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-70788844">
+Invalid Credentials<br/>
+</div>
+</td>
+<td></td>
+<td>36</td>
+<td>com.qa.testscript.TC_InvalidLogin_002@31a5c39e</td></tr>
+<tr>
+<td title='com.qa.testscript.TC_InvalidLogin_002.Invalidlogin()'><b>Invalidlogin</b><br>Test class: com.qa.testscript.TC_InvalidLogin_002<br>Parameters: 6831312013, **&&kjg<br/>
+<a href="#Output-1643379640" onClick='toggleBox("Output-1643379640", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1643379640" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1643379640">
+Invalid Credentials<br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>com.qa.testscript.TC_InvalidLogin_002@31a5c39e</td></tr>
+<tr>
+<td title='com.qa.testscript.TC_InvalidLogin_002.Invalidlogin()'><b>Invalidlogin</b><br>Test class: com.qa.testscript.TC_InvalidLogin_002<br>Parameters: 6833314013, _*@!###<br/>
+<a href="#Output-542839598" onClick='toggleBox("Output-542839598", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-542839598" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-542839598">
+Invalid Credentials<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>com.qa.testscript.TC_InvalidLogin_002@31a5c39e</td></tr>
+<tr>
+<td title='com.qa.testscript.TC_InvalidLogin_002.buyproduct()'><b>buyproduct</b><br>Test class: com.qa.testscript.TC_InvalidLogin_002<br>Parameters: Pen, https://www.myntra.com/?src=bc<br/>
+<a href="#Output-521746054" onClick='toggleBox("Output-521746054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-521746054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-521746054">
+User not logged in<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testscript.TC_InvalidLogin_002@31a5c39e</td></tr>
+<tr>
+<td title='com.qa.testscript.TC_InvalidLogin_002.buyproduct()'><b>buyproduct</b><br>Test class: com.qa.testscript.TC_InvalidLogin_002<br>Parameters: Spice art, https://www.myntra.com/?src=bc<br/>
+<a href="#Output-837233852" onClick='toggleBox("Output-837233852", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-837233852" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-837233852">
+User not logged in<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testscript.TC_InvalidLogin_002@31a5c39e</td></tr>
+<tr>
+<td title='com.qa.testscript.TC_InvalidLogin_002.buyproduct()'><b>buyproduct</b><br>Test class: com.qa.testscript.TC_InvalidLogin_002<br>Parameters: Flower vase, https://www.myntra.com/?src=bc<br/>
+<a href="#Output-1605190078" onClick='toggleBox("Output-1605190078", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1605190078" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1605190078">
+User not logged in<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.qa.testscript.TC_InvalidLogin_002@31a5c39e</td></tr>
+<tr>
+<td title='com.qa.testscript.TC_MyntraShopping_001.getValidLoginData()'><b>getValidLoginData</b><br>Test class: com.qa.testscript.TC_MyntraShopping_001<br>Parameters: 6303341928, Kitkat@456<br/>
+<a href="#Output-405252209" onClick='toggleBox("Output-405252209", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-405252209" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-405252209">
 Logged in successful<br/>
 </div>
 </td>
 <td></td>
-<td>18</td>
-<td>com.qa.testscript.TC_MyntraShopping_001@9596ce8</td></tr>
+<td>21</td>
+<td>com.qa.testscript.TC_MyntraShopping_001@5f2108b5</td></tr>
 </table><p>
 </body>
 </html>

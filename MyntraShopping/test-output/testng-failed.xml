@@ -10,20 +10,11 @@
     <classes>
       <class name="com.qa.testscript.TC_MyntraShopping_001">
         <methods>
-          <include name="AddToCart" invocation-numbers="0 1"/>
           <include name="SetUp"/>
           <include name="TearDown"/>
+          <include name="BuyProductAndSignout"/>
         </methods>
       </class> <!-- com.qa.testscript.TC_MyntraShopping_001 -->
-      <class name="com.qa.testscript.TC_InvalidLogin_002">
-        <methods>
-          <include name="BuyProductAndSignout"/>
-          <include name="Invalidlogin" invocation-numbers="0 1 2"/>
-          <include name="SetUp"/>
-          <include name="TearDown"/>
-          <include name="buyproduct" invocation-numbers="0 1 2"/>
-        </methods>
-      </class> <!-- com.qa.testscript.TC_InvalidLogin_002 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [MyntraSuite] -->

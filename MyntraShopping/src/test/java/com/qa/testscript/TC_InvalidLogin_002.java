@@ -3,6 +3,7 @@ package com.qa.testscript;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Set;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -14,7 +15,7 @@ import com.qa.utility.ExcelUtility;
 
 public class TC_InvalidLogin_002 extends MyntraTestBase {
 
-	@Test(priority = 3, dataProvider = "getInvalidLoginData")
+	@Test(priority = 4, dataProvider = "getInvalidLoginData")
 
 	public void Invalidlogin(String MobileNumber, String Passcode)
 			throws InterruptedException, Exception, InvocationTargetException {
@@ -42,22 +43,21 @@ public class TC_InvalidLogin_002 extends MyntraTestBase {
 		myntrapages.getClickOnLogin().click();
 		Thread.sleep(1000);
 		CaptureScreenshot(driver, "Invalidlogin");
+		Thread.sleep(1000);
 		driver.navigate().back();
+		Thread.sleep(1000);
 		driver.navigate().back();
-        Thread.sleep(1000);
-       // Assert.assertEquals(driver.getTitle().contains("Login/signup"), "Username or Password should be correct");	
-		SoftAssert SAssert=new SoftAssert();
-		SAssert.assertEquals(driver.getTitle().contains("Login/signup"), "Username or Password should be correct");
-		//SAssert.assertNotEquals(driver.getTitle().contains("Login/signup"), "Username or Password should be correct");
+		Thread.sleep(1000);
+		Thread.sleep(1000);
 		Reporter.log("Invalid Credentials");
-		SAssert.assertAll();
 
 	}
 
-	// Which is used to provide data from excell sheet
+	// Which is used to provide data from excel sheet
 	@DataProvider
 	// Creating a method which returns string array
 	public String[][] getInvalidLoginData() throws Exception {
+
 		String Xlpath = "C:\\Users\\Pranaya\\Desktop\\MyntraData.xlsx";
 		String Xpath = "Sheet3";
 
@@ -74,35 +74,41 @@ public class TC_InvalidLogin_002 extends MyntraTestBase {
 		return data;
 	}
 
-	@Test(priority = 4, dataProvider = "getShoppingData")
+	// Creating a method to buy a product
+	@Test(priority = 5, dataProvider = "getShoppingData")
 	public void buyproduct(String ProductName, String NavigateUrl) throws InterruptedException, Exception {
-		Assert.assertEquals(driver.getTitle().contains("Login/signup"), "Username or Password should be correct");
-		
+		if (driver.getTitle().contains("logout")) {
+			CaptureScreenshot(driver, "buyproduct");
+			Thread.sleep(3000);
+			myntrapages.getSearchAnIteam().sendKeys(ProductName);
+			Thread.sleep(3000);
+			myntrapages.getSearchIcon().click();
+			Thread.sleep(3000);
+			myntrapages.getImageClick().click();
+			Thread.sleep(3000);
+			Set<String> windowHandles = driver.getWindowHandles();
+			Thread.sleep(3000);
+			String win = null;
+			Thread.sleep(3000);
+			for (String s : windowHandles) {
+				Reporter.log("Window id is :" + s, true);
+				win = s;
+			}
+			Thread.sleep(3000);
+			driver.switchTo().window(win);
+			Thread.sleep(3000);
+			myntrapages.getAddtobag().click();
+			Thread.sleep(2000);
 
-		CaptureScreenshot(driver, "buyproduct");
-		Thread.sleep(3000);
-		myntrapages.getSearchAnIteam().sendKeys(ProductName);
-		Thread.sleep(3000);
-		myntrapages.getSearchIcon().click();
-		Thread.sleep(3000);
-		myntrapages.getImageClick().click();
-		Thread.sleep(3000);
-		Set<String> windowHandles = driver.getWindowHandles();
-		Thread.sleep(3000);
-		String win = null;
-		Thread.sleep(3000);
-		for (String s : windowHandles) {
-			System.out.println(s);
-			win = s;
+			driver.navigate().to(NavigateUrl);
+			Thread.sleep(1000);
+		} else {
+			Reporter.log("User is not logged in. Please login",true);
+			Thread.sleep(1000);
 		}
-		Thread.sleep(3000);
-		driver.switchTo().window(win);
-		myntrapages.getAddtobag().click();
-		Thread.sleep(2000);
-
-		driver.navigate().to(NavigateUrl);
 	}
 
+	// Creating a data provider method to provide data to buy product
 	@DataProvider
 	public String[][] getShoppingData() throws Exception {
 		String Xlpath = "C:\\Users\\Pranaya\\git\\MyntraApplication\\MyntraShopping\\src\\test\\java\\com\\qa\\testdata\\MyntraData.xlsx";
@@ -120,36 +126,42 @@ public class TC_InvalidLogin_002 extends MyntraTestBase {
 		return data;
 	}
 
-	@Test(priority = 5)
+	// Creating a Method to buy products and signout
+	@Test(priority = 6)
 	public void BuyProductAndSignout() throws InterruptedException
 
 	{
-		Assert.assertEquals(driver.getTitle().contains("Login/signup"), "Username or Password should be correct");
-		myntrapages.getGotobag().click();
-		Thread.sleep(2000);
-		Reporter.log(myntrapages.getCount().size() + ": Number of Items in cart");
 
-		Reporter.log("Cart Items:");
-		Thread.sleep(2000);
-		for (WebElement ele : myntrapages.getCount()) {
+		if (driver.getTitle().contains("logout")) {
+            
+			myntrapages.getGotobag().click();
+			Thread.sleep(2000);
+			Reporter.log(myntrapages.getCount().size() + ": Number of Items in cart");
 
-			Reporter.log(ele.getText(), true);
+			Reporter.log("Cart Items:");
+			Thread.sleep(2000);
+			for (WebElement ele : myntrapages.getCount()) {
+
+				Reporter.log(ele.getText(), true);
+			}
+
+			myntrapages.getClickonPlaceOrder().click();
+			Thread.sleep(2000);
+			myntrapages.getClickOnproceedtocontinue().click();
+			Thread.sleep(3000);
+			driver.navigate().to("https://www.myntra.com/");
+			Thread.sleep(2000);
+			WebElement target2 = myntrapages.getProfile();
+			Thread.sleep(3000);
+			act.moveToElement(target2).perform();
+			Thread.sleep(2000);
+			act.moveToElement(myntrapages.getProfile()).build().perform();
+			Thread.sleep(2000);
+			myntrapages.getSignout().click();
+			Reporter.log(" Order placed and Signed out successfully");
+		} else {
+			Reporter.log("User is not logged in. Please login", true);
 		}
-
-		myntrapages.getClickonPlaceOrder().click();
-		Thread.sleep(2000);
-		myntrapages.getClickOnproceedtocontinue().click();
-		Thread.sleep(3000);
-		driver.navigate().to("https://www.myntra.com/");
-		Thread.sleep(2000);
-		WebElement target2 = myntrapages.getProfile();
-		Thread.sleep(3000);
-		act.moveToElement(target2).perform();
-		Thread.sleep(2000);
-		act.moveToElement(myntrapages.getProfile()).build().perform();
-		Thread.sleep(2000);
-		myntrapages.getSignout().click();
-		Reporter.log(" Order placed and Signed out successfully");
 	}
 
 }

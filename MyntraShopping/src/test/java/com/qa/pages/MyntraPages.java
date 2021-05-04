@@ -132,7 +132,7 @@ public class MyntraPages {
 		return EnterMobileNumber;
 	}
 
-	// To enter pincode while giving address
+	// To enter pin code while giving address
 	@FindBy(xpath = "//input[@id='pincode']")
 	WebElement EnterPincode;
 
@@ -140,7 +140,7 @@ public class MyntraPages {
 		return EnterPincode;
 	}
 
-	// To enter street adress while giving address
+	// To enter street address while giving address
 	@FindBy(xpath = "//input[@id='streetAddress']")
 	WebElement StreetAdress;
 
