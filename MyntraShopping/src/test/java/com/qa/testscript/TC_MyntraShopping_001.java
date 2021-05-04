@@ -42,7 +42,7 @@ public class TC_MyntraShopping_001 extends MyntraTestBase {
 
 	@DataProvider
 	public String[][] getValidLoginData() throws Exception {
-		String Xlpath = "C:\\Users\\Pranaya\\eclipse-workspace\\MyntraShopping\\src\\test\\java\\com\\qa\\utility\\MyntraData.xlsx";
+		String Xlpath = "C:\\Users\\Pranaya\\git\\MyntraApplication\\MyntraShopping\\src\\test\\java\\com\\qa\\testdata\\MyntraData.xlsx";
 		String Xpath = "Sheet1";
 		int rowCount = ExcelUtility.GetRowCount(Xlpath, Xpath);
 		int columnCount = ExcelUtility.GetCellCount(Xlpath, Xpath, rowCount);
@@ -85,7 +85,7 @@ public class TC_MyntraShopping_001 extends MyntraTestBase {
 	
 	@DataProvider
 	public String[][] getShoppingData() throws Exception {
-		String Xlpath = "C:\\Users\\Pranaya\\eclipse-workspace\\MyntraShopping\\src\\test\\java\\com\\qa\\utility\\MyntraData.xlsx";
+		String Xlpath = "C:\\Users\\Pranaya\\git\\MyntraApplication\\MyntraShopping\\src\\test\\java\\com\\qa\\testdata\\MyntraData.xlsx";
 		String Xpath = "Sheet2";
 		int rowCount = ExcelUtility.GetRowCount(Xlpath, Xpath);
 		int columnCount = ExcelUtility.GetCellCount(Xlpath, Xpath, rowCount);

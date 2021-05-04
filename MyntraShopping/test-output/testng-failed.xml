@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [MyntraShoppingSuite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MyntraSuite]">
   <parameter name="Url" value="https://www.myntra.com"/>
   <parameter name="Browser" value="chrome"/>
   <listeners>
@@ -8,6 +8,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.qa.testscript.TC_MyntraShopping_001">
+        <methods>
+          <include name="AddToCart" invocation-numbers="0 1"/>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.testscript.TC_MyntraShopping_001 -->
       <class name="com.qa.testscript.TC_InvalidLogin_002">
         <methods>
           <include name="BuyProductAndSignout"/>
@@ -19,4 +26,4 @@
       </class> <!-- com.qa.testscript.TC_InvalidLogin_002 -->
     </classes>
   </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [MyntraShoppingSuite] -->
+</suite> <!-- Failed suite [MyntraSuite] -->
